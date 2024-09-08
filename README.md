@@ -14,5 +14,6 @@ Para ejecutar el proyecto de forma correcta se necesita lo siguiente:
 2. Acceder desde la consola a la ruta "\SmartInfo_PruebaTecnica\my-app" y ejecutar "npm install"
 3. iniciar el servicio de mysql
 4. importar la base de datos que se encuentra en "\SmartInfo_PruebaTecnica\bd_backup\
-5. Acceder desde la consola a la ruta "\SmartInfo_PruebaTecnica\my-app\src\config" y ejecutar "node server" para iniciar el servidor
-6. Acceder desde la consola a la ruta \SmartInfo_PruebaTecnica\my-app" y ejecutar "npm start" para iniciar la aplicacion
+5. acceder a los valores del archivo "\SmartInfo_PruebaTecnica\my-app\src\config\db.js" y modificarlo en caso de ser necesario host: 'localhost',user: 'root',password: '', database: 'db_smartinfo'
+6. Acceder desde la consola a la ruta "\SmartInfo_PruebaTecnica\my-app\src\config" y ejecutar "node server" para iniciar el servidor
+7. Acceder desde la consola a la ruta \SmartInfo_PruebaTecnica\my-app" y ejecutar "npm start" para iniciar la aplicacion
